@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  re-apple-music
+//  pineapple-tunes
 //
-//  Created by Jessica Joseph on 9/5/17.
+//  Created by Jessica Joseph on 10/23/17.
 //  Copyright © 2017 B0RN BKLYN, Inc. All rights reserved.
 //
 

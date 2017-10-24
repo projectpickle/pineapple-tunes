@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:re-apple-music.xcodeproj">
+      location = "self:pineapple-tunes.xcodeproj">
    </FileRef>
 </Workspace>

@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C17EA381F9ED148003AA978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C17EA371F9ED148003AA978 /* AppDelegate.swift */; };
+		4C17EA3A1F9ED148003AA978 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C17EA391F9ED148003AA978 /* ViewController.swift */; };
+		4C17EA3D1F9ED148003AA978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C17EA3B1F9ED148003AA978 /* Main.storyboard */; };
+		4C17EA3F1F9ED148003AA978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C17EA3E1F9ED148003AA978 /* Assets.xcassets */; };
+		4C17EA421F9ED148003AA978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C17EA401F9ED148003AA978 /* LaunchScreen.storyboard */; };
+		4C17EA4D1F9ED148003AA978 /* pineapple_tunesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C17EA4C1F9ED148003AA978 /* pineapple_tunesTests.swift */; };
+		4C17EA581F9ED148003AA978 /* pineapple_tunesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C17EA571F9ED148003AA978 /* pineapple_tunesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C17EA491F9ED148003AA978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C17EA2C1F9ED148003AA978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C17EA331F9ED148003AA978;
+			remoteInfo = "pineapple-tunes";
+		};
+		4C17EA541F9ED148003AA978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C17EA2C1F9ED148003AA978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C17EA331F9ED148003AA978;
+			remoteInfo = "pineapple-tunes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C17EA341F9ED148003AA978 /* pineapple-tunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pineapple-tunes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C17EA371F9ED148003AA978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C17EA391F9ED148003AA978 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C17EA3C1F9ED148003AA978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C17EA3E1F9ED148003AA978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C17EA411F9ED148003AA978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C17EA431F9ED148003AA978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C17EA481F9ED148003AA978 /* pineapple-tunesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pineapple-tunesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C17EA4C1F9ED148003AA978 /* pineapple_tunesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pineapple_tunesTests.swift; sourceTree = "<group>"; };
+		4C17EA4E1F9ED148003AA978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C17EA531F9ED148003AA978 /* pineapple-tunesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pineapple-tunesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C17EA571F9ED148003AA978 /* pineapple_tunesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pineapple_tunesUITests.swift; sourceTree = "<group>"; };
+		4C17EA591F9ED148003AA978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C17EA311F9ED148003AA978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C17EA451F9ED148003AA978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C17EA501F9ED148003AA978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C17EA2B1F9ED148003AA978 = {
+			isa = PBXGroup;
+			children = (
+				4C17EA361F9ED148003AA978 /* pineapple-tunes */,
+				4C17EA4B1F9ED148003AA978 /* pineapple-tunesTests */,
+				4C17EA561F9ED148003AA978 /* pineapple-tunesUITests */,
+				4C17EA351F9ED148003AA978 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C17EA351F9ED148003AA978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C17EA341F9ED148003AA978 /* pineapple-tunes.app */,
+				4C17EA481F9ED148003AA978 /* pineapple-tunesTests.xctest */,
+				4C17EA531F9ED148003AA978 /* pineapple-tunesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C17EA361F9ED148003AA978 /* pineapple-tunes */ = {
+			isa = PBXGroup;
+			children = (
+				4C17EA371F9ED148003AA978 /* AppDelegate.swift */,
+				4C17EA391F9ED148003AA978 /* ViewController.swift */,
+				4C17EA3B1F9ED148003AA978 /* Main.storyboard */,
+				4C17EA3E1F9ED148003AA978 /* Assets.xcassets */,
+				4C17EA401F9ED148003AA978 /* LaunchScreen.storyboard */,
+				4C17EA431F9ED148003AA978 /* Info.plist */,
+			);
+			path = "pineapple-tunes";
+			sourceTree = "<group>";
+		};
+		4C17EA4B1F9ED148003AA978 /* pineapple-tunesTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C17EA4C1F9ED148003AA978 /* pineapple_tunesTests.swift */,
+				4C17EA4E1F9ED148003AA978 /* Info.plist */,
+			);
+			path = "pineapple-tunesTests";
+			sourceTree = "<group>";
+		};
+		4C17EA561F9ED148003AA978 /* pineapple-tunesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C17EA571F9ED148003AA978 /* pineapple_tunesUITests.swift */,
+				4C17EA591F9ED148003AA978 /* Info.plist */,
+			);
+			path = "pineapple-tunesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C17EA331F9ED148003AA978 /* pineapple-tunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C17EA5C1F9ED148003AA978 /* Build configuration list for PBXNativeTarget "pineapple-tunes" */;
+			buildPhases = (
+				4C17EA301F9ED148003AA978 /* Sources */,
+				4C17EA311F9ED148003AA978 /* Frameworks */,
+				4C17EA321F9ED148003AA978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pineapple-tunes";
+			productName = "pineapple-tunes";
+			productReference = 4C17EA341F9ED148003AA978 /* pineapple-tunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C17EA471F9ED148003AA978 /* pineapple-tunesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C17EA5F1F9ED148003AA978 /* Build configuration list for PBXNativeTarget "pineapple-tunesTests" */;
+			buildPhases = (
+				4C17EA441F9ED148003AA978 /* Sources */,
+				4C17EA451F9ED148003AA978 /* Frameworks */,
+				4C17EA461F9ED148003AA978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C17EA4A1F9ED148003AA978 /* PBXTargetDependency */,
+			);
+			name = "pineapple-tunesTests";
+			productName = "pineapple-tunesTests";
+			productReference = 4C17EA481F9ED148003AA978 /* pineapple-tunesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C17EA521F9ED148003AA978 /* pineapple-tunesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C17EA621F9ED148003AA978 /* Build configuration list for PBXNativeTarget "pineapple-tunesUITests" */;
+			buildPhases = (
+				4C17EA4F1F9ED148003AA978 /* Sources */,
+				4C17EA501F9ED148003AA978 /* Frameworks */,
+				4C17EA511F9ED148003AA978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C17EA551F9ED148003AA978 /* PBXTargetDependency */,
+			);
+			name = "pineapple-tunesUITests";
+			productName = "pineapple-tunesUITests";
+			productReference = 4C17EA531F9ED148003AA978 /* pineapple-tunesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C17EA2C1F9ED148003AA978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "B0RN BKLYN, Inc";
+				TargetAttributes = {
+					4C17EA331F9ED148003AA978 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					4C17EA471F9ED148003AA978 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C17EA331F9ED148003AA978;
+					};
+					4C17EA521F9ED148003AA978 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C17EA331F9ED148003AA978;
+					};
+				};
+			};
+			buildConfigurationList = 4C17EA2F1F9ED148003AA978 /* Build configuration list for PBXProject "pineapple-tunes" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C17EA2B1F9ED148003AA978;
+			productRefGroup = 4C17EA351F9ED148003AA978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C17EA331F9ED148003AA978 /* pineapple-tunes */,
+				4C17EA471F9ED148003AA978 /* pineapple-tunesTests */,
+				4C17EA521F9ED148003AA978 /* pineapple-tunesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C17EA321F9ED148003AA978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C17EA421F9ED148003AA978 /* LaunchScreen.storyboard in Resources */,
+				4C17EA3F1F9ED148003AA978 /* Assets.xcassets in Resources */,
+				4C17EA3D1F9ED148003AA978 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C17EA461F9ED148003AA978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C17EA511F9ED148003AA978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C17EA301F9ED148003AA978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C17EA3A1F9ED148003AA978 /* ViewController.swift in Sources */,
+				4C17EA381F9ED148003AA978 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C17EA441F9ED148003AA978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C17EA4D1F9ED148003AA978 /* pineapple_tunesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C17EA4F1F9ED148003AA978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C17EA581F9ED148003AA978 /* pineapple_tunesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C17EA4A1F9ED148003AA978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C17EA331F9ED148003AA978 /* pineapple-tunes */;
+			targetProxy = 4C17EA491F9ED148003AA978 /* PBXContainerItemProxy */;
+		};
+		4C17EA551F9ED148003AA978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C17EA331F9ED148003AA978 /* pineapple-tunes */;
+			targetProxy = 4C17EA541F9ED148003AA978 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C17EA3B1F9ED148003AA978 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C17EA3C1F9ED148003AA978 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C17EA401F9ED148003AA978 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C17EA411F9ED148003AA978 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C17EA5A1F9ED148003AA978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C17EA5B1F9ED148003AA978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C17EA5D1F9ED148003AA978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G87HUM96UL;
+				INFOPLIST_FILE = "pineapple-tunes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bornbklyn.pineapple-tunes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C17EA5E1F9ED148003AA978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G87HUM96UL;
+				INFOPLIST_FILE = "pineapple-tunes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bornbklyn.pineapple-tunes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C17EA601F9ED148003AA978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G87HUM96UL;
+				INFOPLIST_FILE = "pineapple-tunesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bornbklyn.pineapple-tunesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pineapple-tunes.app/pineapple-tunes";
+			};
+			name = Debug;
+		};
+		4C17EA611F9ED148003AA978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G87HUM96UL;
+				INFOPLIST_FILE = "pineapple-tunesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bornbklyn.pineapple-tunesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pineapple-tunes.app/pineapple-tunes";
+			};
+			name = Release;
+		};
+		4C17EA631F9ED148003AA978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G87HUM96UL;
+				INFOPLIST_FILE = "pineapple-tunesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bornbklyn.pineapple-tunesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pineapple-tunes";
+			};
+			name = Debug;
+		};
+		4C17EA641F9ED148003AA978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G87HUM96UL;
+				INFOPLIST_FILE = "pineapple-tunesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bornbklyn.pineapple-tunesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pineapple-tunes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C17EA2F1F9ED148003AA978 /* Build configuration list for PBXProject "pineapple-tunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C17EA5A1F9ED148003AA978 /* Debug */,
+				4C17EA5B1F9ED148003AA978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C17EA5C1F9ED148003AA978 /* Build configuration list for PBXNativeTarget "pineapple-tunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C17EA5D1F9ED148003AA978 /* Debug */,
+				4C17EA5E1F9ED148003AA978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C17EA5F1F9ED148003AA978 /* Build configuration list for PBXNativeTarget "pineapple-tunesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C17EA601F9ED148003AA978 /* Debug */,
+				4C17EA611F9ED148003AA978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C17EA621F9ED148003AA978 /* Build configuration list for PBXNativeTarget "pineapple-tunesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C17EA631F9ED148003AA978 /* Debug */,
+				4C17EA641F9ED148003AA978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C17EA2C1F9ED148003AA978 /* Project object */;
+}

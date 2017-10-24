@@ -1,14 +1,14 @@
 //
-//  re_apple_musicUITests.swift
-//  re-apple-musicUITests
+//  pineapple_tunesUITests.swift
+//  pineapple-tunesUITests
 //
-//  Created by Jessica Joseph on 9/5/17.
+//  Created by Jessica Joseph on 10/23/17.
 //  Copyright © 2017 B0RN BKLYN, Inc. All rights reserved.
 //
 
 import XCTest
 
-class re_apple_musicUITests: XCTestCase {
+class pineapple_tunesUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
